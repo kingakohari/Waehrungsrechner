@@ -1,12 +1,87 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ff000000">
-    <!--  Mit Farben gestaltete Komponenten.  -->
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:text="@string/unter_titel" android:textColor="#ffffffff" android:background="#ffff0000"/>
-    <TextView android:id="@+id/kurs_ausgabe" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="24sp" android:text="@string/kurs" android:gravity="center" android:textColor="#ffffffff" android:background="#ffff0000"/>
-    <EditText android:id="@+id/kurs_eingabe" android:layout_width="match_parent" android:layout_height="40dp" android:textSize="24sp" android:textColor="#ff000000" android:background="?android:attr/actionModeBackground" android:gravity="center_vertical|center_horizontal"/>
-    <!--  Komponente zum Anzeigen von Grafiken.  -->
-    <ImageView android:layout_width="90dp" android:layout_height="36dp" android:src="@drawable/union_jack"/>
-    <EditText android:id="@+id/pfund_eingabe" android:layout_width="match_parent" android:layout_height="40dp" android:textSize="24sp" android:textColor="#ff000000" android:background="?android:attr/actionModeBackground" android:gravity="center_vertical|center_horizontal"/>
-    <Button android:id="@+id/btn_rechnen" android:text="@string/rechnen" android:layout_width="match_parent" android:layout_height="40dp" android:textColor="#ffffffff" android:textSize="24sp" android:background="#ffff0000"/>
-    <ImageView android:layout_width="90dp" android:layout_height="36dp" android:src="@drawable/europa"/>
-    <TextView android:id="@+id/euro_ausgabe" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="24sp" android:text="@string/euro" android:textColor="#ffffffff" android:background="#ffff0000" android:gravity="center_vertical|center_horizontal"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/unter_titel"
+        android:textColor="#FFFFFFFF"
+        android:background="#AA0000"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/kurs_ausgabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/kurs"
+        android:gravity="center"
+        android:textColor="#FFFFFFFF"
+        android:background="#FF0000"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/kurs_eingabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF000000"
+        android:background="#FFFFFFFF"
+        android:padding="12dp"
+        android:hint="Wechselkurs eingeben"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="36dp"
+        android:src="@drawable/union_jack"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/pfund_eingabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF000000"
+        android:background="#FFFFFFFF"
+        android:padding="12dp"
+        android:hint="Betrag in Pfund"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_rechnen"
+        android:text="@string/rechnen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp"
+        android:background="#FF0000"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="36dp"
+        android:src="@drawable/europa"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/euro_ausgabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFFFFFFF"
+        android:text="@string/euro"
+        android:gravity="center"
+        android:background="#FF0000"
+        android:padding="12dp" />
+
 </LinearLayout>
