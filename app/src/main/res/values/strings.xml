@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aufgabe Währungsrechner</string>
+    <!--  Textnamen und Texte des Projekts. -->
+    <string name="kurs">Kurs:</string>
+    <string name="unter_titel">Britische Pfund (£) in Euro (€)</string>
+    <string name="pfund">Britische Pfund</string>
+    <string name="rechnen">Umrechnen</string>
+    <string name="euro">0.00 €</string>
+</resources>
